@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yandex Captcha\n"
+"POT-Creation-Date: 2014-09-01 19:09+0500\n"
+"PO-Revision-Date: 2014-09-01 19:52+0500\n"
+"Last-Translator: Yunus <yunus.gaziev@gmail.com>\n"
+"Language-Team: webgarret <yunus.gaziev@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: E:\\developer\\servers\\Winginx\\home\\wplugins"
+"\\public_html\\wp-content\\plugins\\yandex-captcha\n"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:51
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:53
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:6
+msgid "Yandex.Clean Web"
+msgstr "Яндекс.Чистый Веб"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:58
+msgid "Update picture"
+msgstr "Обновить картинку"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:63
+msgid "Type text from picture"
+msgstr "Введите код с картинки"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:81
+msgid "<strong>Sorry:</strong> Not entered login or password"
+msgstr "<strong>Простите:</strong> Но, Вы забыли ввести логин или пароль"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:90
+msgid "<strong>ERROR:</strong> Enter text from the picture"
+msgstr "<strong>ОШИБКА:</strong> Введите символы с картинки"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:97
+msgid "<strong>ERROR:</strong> Wrong text from the picture"
+msgstr "<strong>ОШИБКА:</strong> Неверный текст с картинки"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:103
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/index.php:107
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Invalid username or password <a href=\"%s\" title="
+"\"Password Lost and Found\">Lost your password</a>?"
+msgstr ""
+"<strong>ОШИБКА</strong>: Неверные логин или пароль <a href=\"%s\" title="
+"\"Восстановление потерянного пароля\">Забыли пароль</a>?"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:12
+msgid "Yandex.Clean Web - Settings"
+msgstr "Яндекс.Чистый Веб - Настройки"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:30
+msgid "API-key"
+msgstr "API-ключ"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:33
+msgid ""
+"Get <a href=\"http://api.yandex.ru/key/form.xml?service=cw\" title=\"Get API-"
+"key\" target=\"_blank\">API-key</a>"
+msgstr ""
+"Получить <a href=\"http://api.yandex.ru/key/form.xml?service=cw\" title="
+"\"Получить API-ключ\" target=\"_blank\">API-ключ</a>"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:40
+msgid "Choose a captcha type"
+msgstr "Набор символов в капче и язык логотипа"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:48
+msgid "Figures, Russian logo"
+msgstr "Цифры, русскоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:60
+msgid "Digits, English logo"
+msgstr "Цифры, англоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:72
+msgid "Easy-to-read digits, Russian logo"
+msgstr "Простые для чтения цифры, русскоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:84
+msgid "Easy to read numbers, English logo"
+msgstr "Простые для чтения цифры, англоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:96
+msgid "Russian letters, Russian logo"
+msgstr "Русские буквы, русскоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:108
+msgid "Latin lowercase, Russian logo"
+msgstr "Латинские строчные буквы , русскоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:120
+msgid "Latin lower-case letters, English logo"
+msgstr "Латинские строчные буквы, англоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:132
+msgid "Latin capital letter, Russian logo"
+msgstr "Латинские прописные буквы, англоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:144
+msgid "Latin capital letter, English logo"
+msgstr "Латинские прописные буквы, русскоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:156
+msgid "Latin letters in mixed case, Russian logo"
+msgstr "Латинские буквы смешанного регистра, русскоязычный логотип"
+
+#: E:\developer\servers\Winginx\home\wplugins\public_html\wp-content\plugins\yandex-captcha/yac.admin.php:168
+msgid "Latin letters in mixed case English logo"
+msgstr "Латинские буквы смешанного регистра, англоязычный логотип"

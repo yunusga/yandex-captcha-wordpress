@@ -1,0 +1,186 @@
+.login form {
+    background:         #fff;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 3px 4px -3px rgba(0, 0, 0, .3);
+    -moz-box-shadow:    0 0 0 1px rgba(0, 0, 0, .1), 0 3px 4px -3px rgba(0, 0, 0, .3);
+    box-shadow:         0 0 0 1px rgba(0, 0, 0, .1), 0 3px 4px -3px rgba(0, 0, 0, .3);
+}
+
+.yac-container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+}
+
+.yac-container {
+    border-top:    1px solid rgba(0, 0, 0, .1) ! important;
+    padding-top:   10px;
+    margin-bottom: 18px;
+}
+
+.yac-link {
+    font:            15px Arial, Helvetica, sans-serif;
+    color:           #1a3dc1;
+    text-decoration: none;
+}
+
+.yac-link:hover {
+    color: #d00;
+}
+
+.yac-picture-refresh {
+    margin-bottom: 6px;
+}
+
+.yac-picture {
+    height:    60px;
+    font-size: 0;
+}
+
+.yac-picture img {
+
+}
+
+.yac-refresh {
+    width:  60px;
+    height: 60px;
+}
+
+.refresh-button {
+
+    display:          block;
+    width:            100%;
+    height:           100%;
+
+    background-color: #fff;
+
+    outline:          none;
+    cursor:           pointer;
+
+    border:           none;
+}
+
+.yac-input {
+    width:       100%;
+    height:      32px;
+
+    padding:     3px 6px ! important;
+    margin:      4px 0 0 0 ! important;
+
+    border:      1px solid rgb(157, 157, 157) ! important;
+
+    font-family: Arial, sans-serif;
+    font-size:   14px ! important;
+}
+
+.yac-input:focus {
+    -webkit-box-shadow: rgba(255, 204, 0, .7) 0 0 6px 2px ! important;
+    -moz-box-shadow:    rgba(255, 204, 0, .7) 0 0 6px 2px ! important;
+    box-shadow:         rgba(255, 204, 0, .7) 0 0 6px 2px ! important;
+}
+
+.yac-icon {
+    display:  block;
+    width:    38px;
+    height:   38px;
+    margin:   11px;
+
+    overflow: hidden;
+}
+
+.yac-icon.refresh {
+    background: transparent url("../images/refresh.png") 0 0 no-repeat;
+}
+
+.yac-icon.refreshing {
+    background: transparent url("../images/refreshing.gif") 10px 11px no-repeat;
+    /*background: transparent url("../images/refresh-custom.gif") 0 0 no-repeat;*/
+}
+
+.yac-table .regular-text {
+    width: 96%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display:    none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border:   0;
+    clip:     rect(0 0 0 0);
+    height:   1px;
+    margin:   -1px;
+    overflow: hidden;
+    padding:  0;
+    position: absolute;
+    width:    1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip:     auto;
+    height:   auto;
+    margin:   0;
+    overflow: visible;
+    position: static;
+    width:    auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
